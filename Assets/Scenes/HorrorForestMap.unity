@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG ! tag:yaml.org,2002:yaml-ext-types:
+--- !u!29 &1
+SceneHierarchy:
+  m_ObjectHideFlags: 0
+  m_Version: 2
+  m_RootOrder: 0
+  m_Layers: []
+  m_TexEnvs: []
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 1
+  m_FogColor: {r: 0.1, g: 0.18, b: 0.25, a: 1}
+  m_FogMode: 1
+  m_FogDensity: 0.08
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 0.5
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceBoost: 1
+    m_EnvironmentOcclusionIntensity: 1
+    m_EnvironmentOcclusionQualitySettings: 0
+    m_EnvironmentOcclusionQualitySettingsValues: []
+    m_LightProbeSampleCountMultiplier: 4
+    m_LightProbeVolumeSizeMultiplier: 1
+    m_ProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+  m_PVRCulling: 1
+  m_PVRDirectSampleCount: 32
+  m_PVRSampleCount: 512
+  m_PVRBounces: 2
+  m_PVREnvironmentMIS: 0
+  m_PVRFilteringMode: 1
+  m_PVRDenoiserTypeDirect: 0
+  m_PVRDenoiserTypeIndirect: 0
+  m_PVRDenoiserTypeAO: 0
+  m_PVRFilterTypeDirect: 0
+  m_PVRFilterTypeIndirect: 0
+  m_PVRFilterTypeAO: 0
+  m_PVREnvironmentMISCustomSampling: 0
+  m_PVREnvironmentSampleCount: 128
+  m_PVREnvironmentReferencePoint: {x: 0, y: 0, z: 0}
+  m_PVRLightProbeSampleCountMultiplier: 4
+  m_PVRRenderingPath: 0
+  m_PVRRenderingPathRayTracing: 0
+  m_PVRCudaCompute: 0
+  m_PVRCudaTextureSizeX: 1024
+  m_PVRCudaTextureSizeY: 1024
+  m_PVRRenderingPathRayTracingCudaMemory: 0
+  m_PVRClusterAmbientLightProbeSampling: 0
+  m_PVRClusterVisibilityAmbientOcclusionProbeCount: 0
+  m_PVRClusterVisibilityAmbientOcclusionUseGPU: 0
+  m_PVRClusterVisibilityAmbientOcclusionCullingPlaneDownsampling: 1
+  m_PVRClusterVisibilityAmbientOcclusionCullingPlaneDownsamplingXY: 2
+  m_PrebakedCullingProbeSets: []
+  m_MinUnbakedGIRenderDistance: 2
+  m_MinBakedGIRenderDistance: -1
+  m_GetComponent_LightBakingOutput: 0
+  m_AllEnvSphereLighting: 0
+  m_ExtractAmbientProbeFromSkybox: 0
+  m_LightProbeSurfaceCharacteristicHeight: 0
+  m_CallbackArray: []
+--- !u!196 &4
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &597845555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 597845559}
+  - component: {fileID: 597845558}
+  - component: {fileID: 597845556}
+  m_Layer: 0
+  m_Name: IslandMapGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &597845556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597845555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c4c5e5f5f5f5f5f5f5f5f5f5f5f5f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  islandRadius: 175
+  islandRoughness: 0.4
+  islandFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  islandCenter: {x: 0, y: 0, z: 0}
+  terrainMaterial: {fileID: 0}
+  terrainColorDark: {r: 0.08, g: 0.12, b: 0.1, a: 1}
+  terrainColorGreen: {r: 0.15, g: 0.24, b: 0.18, a: 1}
+  meshResolution: 2
+  waterMaterial: {fileID: 0}
+  waterColor: {r: 0.05, g: 0.35, b: 0.45, a: 0.95}
+  waterLevel: -0.5
+  treeCountDense: 2200
+  treeCountSparse: 600
+  treePrefabs: []
+  minTreeScale: 1.1
+  maxTreeScale: 2.2
+  treePlacementRadius: 165
+  rockPrefabs: []
+  rockCount: 140
+  rockMinScale: 1
+  rockMaxScale: 2.5
+  debrisPrefabs: []
+  debrisCount: 250
+  rescueBasePrefab: {fileID: 0}
+  watchTowerPrefab: {fileID: 0}
+  rescueBasePosition: {x: 60, y: 0, z: -80}
+  watchTowerPosition: {x: -90, y: 0, z: 50}
+  fogColor: {r: 0.1, g: 0.18, b: 0.25, a: 1}
+  fogDensity: 0.08
+  skyColor: {r: 0.12, g: 0.2, b: 0.28, a: 1}
+--- !u!114 &597845558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597845555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c1c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!4 &597845559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597845555}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
